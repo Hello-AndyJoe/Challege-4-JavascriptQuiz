@@ -4,7 +4,7 @@
 ## Description
 
 
-This web application is designed for users to start a JavaScript quiz to review a five basic items related to the topic. 
+This web application is designed for users to start a JavaScript quiz to review a five basic items related to the topic. The quiz can be taken and multiple choice answers will be validated to show how to the player is performing. A record of the last attempt can be saved so the user can see how they're doing with the material.
 
 
 ## Installation
