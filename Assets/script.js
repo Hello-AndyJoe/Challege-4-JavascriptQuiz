@@ -163,15 +163,15 @@ function reTry() {
 }
 
 //Stores player data into localstorage to be pulled; still working on how to pull it
-document.getElementById("submit-name").addEventListener("click", function() {
+function submitRecord() {
     var player = document.getElementById("player-name");
     
     var playerScoreData = {
-      player: player.value,
-      scoreTotal: scoreTotal,
-      seconds: seconds
+        player: player.value,
+        scoreTotal: scoreTotal,
+        seconds: seconds
     };
     
     localStorage.setItem("playerScoreData", JSON.stringify(playerScoreData));
     console.log(playerScoreData);
-});
+}
