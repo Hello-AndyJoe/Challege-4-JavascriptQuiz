@@ -63,26 +63,26 @@ var quiz = {
         {choice: "C. svg", answer: false},
         {choice: "D. script", answer: true},
         ]},
-        {question: "What is used to get code to repeat",
+        {question: "What is the follow an example of: 'testQuestion()'",
         options:[
-        {choice: "A. CA", answer: false},
-        {choice: "B. CB", answer: false},
-        {choice: "C. CC", answer: true},
-        {choice: "D. CD", answer: false},
+        {choice: "A. Variable", answer: false},
+        {choice: "B. Array", answer: false},
+        {choice: "C. Function", answer: true},
+        {choice: "D. String", answer: false},
         ]},
-        {question: "The answer is A, again.",
+        {question: "What does JSON stand for?",
         options:[
-        {choice: "A. AA", answer: true},
-        {choice: "B. AB", answer: false},
-        {choice: "C. AC", answer: false},
-        {choice: "D. AD", answer: false},
+        {choice: "A. JavaScript Object Notation", answer: true},
+        {choice: "B. JavaScript Obstruction Node", answer: false},
+        {choice: "C. JavaScript Object Numeration", answer: false},
+        {choice: "D. Java Suplex Obligation Node", answer: false},
         ]},
-        {question: "The answer is B.",
+        {question: "What method would be used to add an item to an array?",
         options:[
-        {choice: "A. BA", answer: false},
-        {choice: "B. BB", answer: true},
-        {choice: "C. BC", answer: false},
-        {choice: "D. BD", answer: false},
+        {choice: "A. reduce()", answer: false},
+        {choice: "B. push()", answer: true},
+        {choice: "C. join()", answer: false},
+        {choice: "D. pop()", answer: false},
         ]},
     ]
 }
@@ -117,11 +117,11 @@ function answerVerify(event) {
     questionValue = event.target.value;
     console.log(questionValue);
     if (questionValue === "true") {
-        scoreTally.push("o");
+        scoreTally.push("&#9745");
         console.log("Correct")
         scoreTotal++;
     } else {
-        scoreTally.push("x");
+        scoreTally.push("&#9746");
         console.log("Incorrect");
         minusTime();
     }

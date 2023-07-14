@@ -4,27 +4,33 @@
 ## Description
 
 
-This web application is designed for users to start a JavaScript quiz to review a few items related to the topic.
+This web application is designed for users to start a JavaScript quiz to review a five basic items related to the topic. 
 
 
 ## Installation
 
 
-There is no Installation involved on the users side to utilize this webpage; just visit 
+There is no Installation involved on the users side to utilize this webpage; just visit [https://hello-andyjoe.github.io/Challege-4-JavascriptQuiz/](https://hello-andyjoe.github.io/Challege-4-JavascriptQuiz/)
 
 
 ## Usage
 
 
-To take this quiz, click the red button "Generate Password" and a prompt will appear towards the upper portion of the browser's window asking for users to input a number. Once, they input a number, it will move on to a series of prompts asking to Yes or No questions as to what characters they want to be used in their password. In the event that the use input invalid responses, such as a nonnumber for the password legnth or something other that yes or no for the other questions, it will alert the user and ask them again to input a reponse. If all four yes or no questions are answered with no, then the user will get an alert that they cannot anwser no to all of the questions and will have to run through the criteria again. If a user answers the various prompts with valid reponses, they will get an alert that has the generated password.
+To take this quiz, click the Start button below the large TIME box. This will start the timer and show the first question of the quiz. Select an answer, it will mark it correct or incorrect and move on to the next question. If it is incorrect, it will subject time from the timer as displayed in the TIME box. Follow through the questions, you will see the results tabulated below. The quiz will end once all five questions are answered or if timer hits zero. The next screen will show the results and have a input box for a name to be typed into. This will submit to localstorage the name input into the input box, the number of correct answers and the time left on the time when the quiz was finished.
 
-Additionally, if one opens the JavaScript, they can see the questions being validated as correct or not as the quiz questions are answered, the tally of the score and the time remaing when the quiz is completed or has run out of time. 
+Additionally, if one opens the JavaScript, they can see the questions being validated as correct or not as the quiz questions are answered, the tally of the score and the time remaing when the quiz is completed or has run out of time.
+
+![Quiz with Console Log opened](./assets/quiz_consolelog.png)
 
 
 ## Credits
 
 
+Press Start 2P font provided by Google Fonts and designed by CodeMan38 
+: Link to [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
 
+VT323 font provided by Google Fonts and designed by Peter Hull 
+: Link to [VT323](https://fonts.google.com/specimen/VT323)
 
 
 ## License
