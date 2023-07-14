@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz</title>
+    <link rel="stylesheet" href="Assets/style.css" />
+</head>
+<body>
+    <header id="countdown-box">
+        <div>
+            <h3>Time</h3>
+            <h2 id="countdown">--</h2>
+        </div>
+    </header>
+    <main>
+        <div id="start-box">
+            <button onclick="setTime()">Start</button>
+        </div>
+        <div id="question-box">
+            <h2></h2>
+            <p id="question"></p>
+            <div id="question-option"></div>
+        </div>
+        <div id="tally-box">
+            <p>Results:</p>
+            <div id="score-box"></div>
+        </div>
+        <div id="result-box">
+            <p>You answered <span id="score-results"></span> correctly.</p>
+            <p>Please input your name to record highscore.</p>
+            <input type="text" id="player-name" name="player-name">
+            <button id="submit-name">Submit</button>
+            <button onclick="reTry()">Try Again</button>
+        </div>
+    </main>
+    <footer>
+        <a href="highscores.html">View Highscores</a>
+    </footer>
+    <script src="Assets/script.js"></script>
+</body>
+</html>

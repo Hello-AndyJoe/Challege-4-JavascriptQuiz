@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: "VT323", monospace;
+    background: #131313;
+    color: #DFDFDF;
+    border: none;
+}
+
+#start-box {
+    display: flex;
+    justify-content: center;
+    margin: 84px;
+}
+
+#question-box, #result-box, #tally-box {
+    display: none;
+}
+
+#countdown-box > div {
+    max-width: 280px;
+    margin: auto;
+    position: relative;
+    top: 84px;
+    text-align: center;
+    border: 4px dashed #575757;
+}
+
+#countdown-box h2 {
+    font-family: "Press Start 2P", monospace;
+    font-size: 72px;
+    margin: 12px 12px 32px;
+    text-shadow: 12px 12px #000000;
+}
+
+#countdown-box h3 {
+    font-size: 64px;
+    text-transform: uppercase;
+    margin: 24px 0 0;
+    font-weight: 400;
+}
+
+#question-option {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#question-option button {
+    width: calc(50% - 16px);
+}
+
+body {
+    max-width: 684px;
+    margin: auto;
+}
+
+main {
+    padding: 84px 48px 48px;
+    border: 4px dashed #575757;
+    border-radius: 8px;
+}
+
+p, #score-box {
+    font-size: 32px;
+    margin: 24px 8px;
+}
+
+input, button {
+    padding: 8px 24px;
+    margin: 8px;
+    font-size: 24px;
+    transition: .5s ease;
+}
+
+input {
+    background: #222222;
+    border: 2px solid #575757;
+    border-bottom: 2px dashed #DFDFDF;
+}
+
+button {
+    border: 2px dashed #DFDFDF;
+    box-shadow: 6px 6px #000000;
+}
+
+button:hover {
+    background: #575757;
+}
+
+footer {
+    font-size: 18px;
+    margin: 8px 24px;
+}
