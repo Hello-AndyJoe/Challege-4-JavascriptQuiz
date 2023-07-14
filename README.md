@@ -4,7 +4,7 @@
 ## Description
 
 
-This web application is designed for users to start a JavaScript quiz to review a five basic items related to the topic. 
+This web application is designed for users to start a JavaScript quiz to review a five basic items related to the topic. The quiz can be taken and multiple choice answers will be validated to show how to the player is performing. A record of the last attempt can be saved so the user can see how they're doing with the material.
 
 
 ## Installation
@@ -16,7 +16,7 @@ There is no Installation involved on the users side to utilize this webpage; jus
 ## Usage
 
 
-To take this quiz, click the Start button below the large TIME box. This will start the timer and show the first question of the quiz. Select an answer, it will mark it correct or incorrect and move on to the next question. If it is incorrect, it will subject time from the timer as displayed in the TIME box. Follow through the questions, you will see the results tabulated below. The quiz will end once all five questions are answered or if timer hits zero. The next screen will show the results and have a input box for a name to be typed into. This will submit to localstorage the name input into the input box, the number of correct answers and the time left on the time when the quiz was finished.
+To take this quiz, click the Start button below the large TIME box. This will start the timer and show the first question of the quiz. Select an answer, it will mark it correct or incorrect and move on to the next question. If it is incorrect, it will subject time from the timer as displayed in the TIME box. Follow through the questions, you will see the results tabulated below. The quiz will end once all five questions are answered or if timer hits zero. The next screen will show the results and have a input box for a name to be typed into. This will submit to localstorage the name input into the input box, the number of correct answers and the time left on the time when the quiz was finished. This record can be seen by visiting the link View Highscores that's below.
 
 Additionally, if one opens the JavaScript, they can see the questions being validated as correct or not as the quiz questions are answered, the tally of the score and the time remaing when the quiz is completed or has run out of time.
 
