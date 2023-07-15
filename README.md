@@ -20,7 +20,7 @@ To take this quiz, click the Start button below the large TIME box. This will st
 
 Additionally, if one opens the JavaScript, they can see the questions being validated as correct or not as the quiz questions are answered, the tally of the score and the time remaing when the quiz is completed or has run out of time.
 
-![Quiz with Console Log opened](./assets/quiz_consolelog.png)
+![Quiz with Console Log opened](https://github.com/Hello-AndyJoe/Challege-4-JavascriptQuiz/blob/main/Assets/quiz_consolelog.png)
 
 
 ## Credits
