@@ -26,6 +26,8 @@ Additionally, if one opens the JavaScript, they can see the questions being vali
 ## Credits
 
 
+The setTime function is largely adpated from the function of the same name in the ASU-VIRT-FSF-PT-06-2023-U-LOLC\04-Web-APIs\01-Activities\09-Ins_Timers-Intervals class activity.
+
 Press Start 2P font provided by Google Fonts and designed by CodeMan38 
 : Link to [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
 
